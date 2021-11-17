@@ -12,4 +12,4 @@ Trimester 2
 
 ### Ideation 
 
-(Finance Related)
+Teaching students at Del Norte about the stock market/crypto currency interactively. Del Norte Stonks! (DNS) will provide a first-hand experience with the US stock market and shareholding. On the website, students will learn and develop their general financial literacy skills.
