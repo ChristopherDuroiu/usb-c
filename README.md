@@ -1,2 +1,3 @@
-# usb-c
-tri 2
+# Period 2  🔋USB-C🔋
+
+Trimester 2 
