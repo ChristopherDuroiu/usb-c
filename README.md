@@ -1,3 +1,3 @@
 # Period 2  🔋USB-C🔋
-### GitHub Contributors: Bryant Jin, Rachel Wei, Eric Wang, Adrita Chakraborty, Grace Le
+### GitHub Contributors: Grace Le, Navodit Maheshwari, Caleb Kim, Chris Duroiu
 Trimester 2 
