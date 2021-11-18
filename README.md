@@ -1,6 +1,7 @@
 # Period 2  🔋USB-C🔋
 Trimester 2 
 
+
 ![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
 
 
