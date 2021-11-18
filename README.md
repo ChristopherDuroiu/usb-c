@@ -1,6 +1,10 @@
 # Period 2  🔋USB-C🔋
 Trimester 2 
 
+(https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
+
+
+
 | Name | GitHub ID | Issues | Commits |  
 | ------------- | ------------- | -------- | -------- |
 |Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |
@@ -11,3 +15,5 @@ Trimester 2
 ### Ideation 
 
 Teaching students at Del Norte about the stock market/crypto currency interactively. Del Norte Stonks! (DNS) will provide a first-hand experience with the US stock market and shareholding. On the website, students will learn and develop their general financial literacy skills.
+
+
