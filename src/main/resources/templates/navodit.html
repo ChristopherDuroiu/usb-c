@@ -13,10 +13,12 @@
 <body>
 <div layout:fragment="content" th:remove="tag">
 <h1>Hello there</h1>
-
+<div>
   <img id="img1" src="images/navodit/navmaskoff.jpg" alt="mask_off">
+</div>
+<div>
   <button type="button" onclick="toggle()">Toggle</button>
-
+</div>
     <script>
         function toggle(){
            var imgsrc = document.getElementById("img1").src;
