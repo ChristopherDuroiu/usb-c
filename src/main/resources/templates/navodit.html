@@ -6,11 +6,28 @@
     <div layout:fragment="metadata" th:remove="tag">
         <title>Navodit</title>
     </div>
+
+
+
 </head>
 <body>
 <div layout:fragment="content" th:remove="tag">
 <h1>Hello there</h1>
 
+  <img id="img1" src="images/navodit/navmaskoff.jpg" alt="mask_off">
+  <button type="button" onclick="toggle()">Toggle</button>
+
+    <script>
+        function toggle(){
+           var imgsrc = document.getElementById("img1").src;
+            if (imgsrc.indexOf("images/navodit/navmaskoff.jpg")!== -1){
+              document.getElementById("img1").src = "images/navodit/navmaskon.jpg";
+            }
+            else{
+                document.getElementById("img1").src = "images/navodit/navmaskoff.jpg"
+            }
+        }
+    </script>
 
 </div>
 </body>
