@@ -25,7 +25,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Navodit {
     @GetMapping("/navodit")
-    public String navodit(){
+    public String navodit(Model model) throws IOException, InterruptedException, ParseException{
+
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia"))
+                .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
+                .header("x-rapidapi-key", "845637a39cmshcd1cb3388e6f02ap15ffd5jsne437b834d421")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
+
+        Object object = new JSONParser().parse(response.body());
+        JSONArray trivia = (JSONArray) object;
+
+        model.addAttribute("trivia", trivia);
 
         return "navodit";
     }

@@ -7,23 +7,14 @@
         <title>Navodit</title>
     </div>
 
-    <style>
-        img{
 
-        }
-        .img1 {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
 </head>
 
 <body>
 
     <div layout:fragment="content" th:remove="tag">
-        <h1>Hello there</h1>
-        <h2>My name is Navodit</h2>
+        <h1 style="color: white">Hello there</h1>
+        <h2 style="color: white">My name is Navodit</h2>
         <div>
             <img id="img1" src="images/navodit/navmaskoff.png" onclick="toggle()"
                  alt="mask_off"
@@ -40,7 +31,32 @@
                 }
             }
         </script>
+        <div>
 
+        </div>
+        <div>
+            <form action="/navodit" method="GET" id="triviaForm">
+                <button style="width:200px" class="reviewSubmit">Refresh!</button>
+            </form>
+        </div>
+        <div>
+            <table style="color:white;" border="1">
+                <tr>
+                    <th>Category</th>
+                    <th>Question</th>
+                    <th>Answer</th>
+                </tr>
+                <tr>
+                    <td th:text="${trivia[0].category}"> </td>
+                    <td th:text="${trivia[0].question}"> </td>
+                    <td th:text="${trivia[0].answer}"> </td>
+                </tr>
+            </table>
+        </div>
+        <script th:inline="javascript">
+            const news = [[${video}]]
+            console.log(news)
+        </script>
 
     </div>
 
