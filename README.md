@@ -19,6 +19,8 @@ Teaching students at Del Norte about the stock market/crypto currency interactiv
 
 
 ### Key Features of DN STONKS! 
+
+| Ideas |
 | ------- |
 | About Me Page(s) |
 | Crypto Page |
