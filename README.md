@@ -18,3 +18,16 @@ Trimester 2
 Teaching students at Del Norte about the stock market/crypto currency interactively. Del Norte Stonks! (DNS) will provide a first-hand experience with the US stock market and shareholding. On the website, students will learn and develop their general financial literacy skills.
 
 
+### Key Features of DN STONKS! 
+| ------- |
+| About Me Page(s) |
+| Crypto Page |
+| Background Changer Depending on Market Conditions |
+| Search for Stocks |
+| Daily Movers (% wise) |
+| Display Key Information on Companies |
+| Make your own portfolio |
+| Recommomenatinos when to Buy or Sell based on a Bot's Analysis |
+| Have Updated News on market condition everyday |
+| Option to View Graphs of all Companies |
+| Intergrate CB FRQs and make pretty in Website |
