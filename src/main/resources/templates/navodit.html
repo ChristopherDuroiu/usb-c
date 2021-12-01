@@ -8,27 +8,60 @@
     </div>
 
 
-
 </head>
+
 <body>
-<div layout:fragment="content" th:remove="tag">
-<h1>Hello there</h1>
 
-  <img id="img1" src="images/navodit/navmaskoff.jpg" alt="mask_off">
-  <button type="button" onclick="toggle()">Toggle</button>
-
-    <script>
-        function toggle(){
-           var imgsrc = document.getElementById("img1").src;
-            if (imgsrc.indexOf("images/navodit/navmaskoff.jpg")!== -1){
-              document.getElementById("img1").src = "images/navodit/navmaskon.jpg";
+    <div layout:fragment="content" th:remove="tag">
+        <h1 style="color: white">Hello there</h1>
+        <h2 style="color: white">My name is Navodit</h2>
+        <div>
+            <img id="img1" src="images/navodit/navmaskoff.png" onclick="toggle()"
+                 alt="mask_off"
+                 style="height: 360px; width: 540px; display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <script>
+            function toggle(){
+               var imgsrc = document.getElementById("img1").src;
+                if (imgsrc.indexOf("images/navodit/navmaskoff.png")!== -1){
+                  document.getElementById("img1").src = "images/navodit/navmaskon.png";
+                }
+                else{
+                    document.getElementById("img1").src = "images/navodit/navmaskoff.png"
+                }
             }
-            else{
-                document.getElementById("img1").src = "images/navodit/navmaskoff.jpg"
-            }
-        }
-    </script>
+        </script>
+        <div>
 
-</div>
+        </div>
+        <div>
+            <form action="/navodit" method="GET" id="triviaForm">
+                <button style="width:200px" class="reviewSubmit">Refresh!</button>
+            </form>
+        </div>
+        <div>
+            <table style="color:white;" border="1">
+                <tr>
+                    <th>Category</th>
+                    <th>Question</th>
+                    <th>Answer</th>
+                </tr>
+                <tr>
+                    <td th:text="${trivia[0].category}"> </td>
+                    <td th:text="${trivia[0].question}"> </td>
+                    <td th:text="${trivia[0].answer}"> </td>
+                </tr>
+            </table>
+        </div>
+        <script th:inline="javascript">
+            const news = [[${video}]]
+            console.log(news)
+        </script>
+
+    </div>
+
+
+
+
 </body>
 </html>

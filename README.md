@@ -6,15 +6,30 @@ Trimester 2
 
 
 
-| Name | GitHub ID | Issues | Commits |  
-| ------------- | ------------- | -------- | -------- |
-|Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |
-|Grace Le| [gracele246](https://github.com/gracele246)  | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/gracele246) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=gracele246) |
-|Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) |
-|Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) |
+| Name | GitHub ID | Issues | Commits | Roles |
+| ------------- | ------------- | -------- | -------- |------------|
+|Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |  Scrum Master: Ensure roles are assigned.  Build Scrum Board. Also Technical Officer from Scrum Team.  Works with Teacher, Classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics for Trimester.  Also, facilitates learning of Technical Concepts within Scrum Team. |
+|Grace Le| [gracele246](https://github.com/gracele246)  | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/gracele246) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=gracele246) | Deployment Manager (RPi or AWS).  Deploy Web site.  Establish policy and frequency for updates.  Ensure site is not broken and always alive for reviews. |
+|Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) | GitHub Admin.  Setup Project in Git.  Integrate any starter code from Trimester 1.  Build policies for Fork and Pull requests. |
+|Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) | Primary Designer.  Primary Designer and Layout manager.  Organize Thymeleaf Enabled Templates, ensure usage of Bootstrap (minimize CSS customization per page).  Establish plan for overrides on each of the User Pages. |
 
 ### Ideation 
 
 Teaching students at Del Norte about the stock market/crypto currency interactively. Del Norte Stonks! (DNS) will provide a first-hand experience with the US stock market and shareholding. On the website, students will learn and develop their general financial literacy skills.
 
 
+### Key Features of DN STONKS! 
+
+| Ideas |
+| ------- |
+| About Me Page(s) |
+| Crypto Page |
+| Background Changer Depending on Market Conditions |
+| Search for Stocks |
+| Daily Movers (% wise) |
+| Display Key Information on Companies |
+| Make your own portfolio |
+| Recommomenatinos when to Buy or Sell based on a Bot's Analysis |
+| Have Updated News on market condition everyday |
+| Option to View Graphs of all Companies |
+| Intergrate CB FRQs and make pretty in Website |
