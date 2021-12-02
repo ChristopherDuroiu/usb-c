@@ -33,3 +33,10 @@ Teaching students at Del Norte about the stock market/crypto currency interactiv
 | Have Updated News on market condition everyday |
 | Option to View Graphs of all Companies |
 | Intergrate CB FRQs and make pretty in Website |
+
+
+### Links
+
+* [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan)
+* [Github Admin Policies](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document)
+* [Managment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Managment-Plan)
