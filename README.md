@@ -1,10 +1,10 @@
 # Period 2  🔋USB-C🔋
-Trimester 2 
+### Trimester 2 
 
 
 ![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
 
-
+## Dev Team
 
 | Name | GitHub ID | Issues | Commits | Roles |
 | ------------- | ------------- | -------- | -------- |------------|
@@ -13,12 +13,12 @@ Trimester 2
 |Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) | GitHub Admin.  Setup Project in Git.  Integrate any starter code from Trimester 1.  Build policies for Fork and Pull requests. |
 |Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) | Primary Designer.  Primary Designer and Layout manager.  Organize Thymeleaf Enabled Templates, ensure usage of Bootstrap (minimize CSS customization per page).  Establish plan for overrides on each of the User Pages. |
 
-### Ideation 
+## Ideation 
 
 Teaching students at Del Norte about the stock market/crypto currency interactively. Del Norte Stonks! (DNS) will provide a first-hand experience with the US stock market and shareholding. On the website, students will learn and develop their general financial literacy skills. [Wireframe](https://docs.google.com/presentation/d/1UCN9p-xuSob24nt1iTSIiLULpcQXU4HHEcjPLDf1--M/edit?usp=sharing)
 
 
-### Key Features of DN STONKS! 
+## Key Features of DN STONKS! 
 
 | Ideas |
 | ------- |
@@ -35,7 +35,7 @@ Teaching students at Del Norte about the stock market/crypto currency interactiv
 | Intergrate CB FRQs and make pretty in Website |
 
 
-### Links
+## Links
 
 * [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan)
 * [Github Admin Policies](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document)
