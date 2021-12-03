@@ -28,7 +28,7 @@ public class Navodit {
     public String navodit(Model model) throws IOException, InterruptedException, ParseException{
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia"))
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia?category=geography"))
                 .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
                 .header("x-rapidapi-key", "845637a39cmshcd1cb3388e6f02ap15ffd5jsne437b834d421")
                 .method("GET", HttpRequest.BodyPublishers.noBody())

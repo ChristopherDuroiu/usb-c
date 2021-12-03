@@ -1,35 +1,10 @@
 <!DOCTYPE html>
-<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
-
+<html lang="en">
 <head>
-    <div layout:fragment="metadata" th:remove="tag">
-        <title>Grace About Me</title>
-    </div>
-
+    <meta charset="UTF-8">
+    <title>Grace About Me</title>
 </head>
 <body>
-<div layout:fragment="content" th:remove="tag">
-    <h1 style="color: white">Welcome to my About Me Page!</h1>
-    <h2 style="color: white">My name is Grace Le!</h2>
-    <div>
-        <img id="img1" src="images/grace/maskoff.jpg" onclick="toggle()"
-             alt="mask_off"
-             style="height: 540px; width: 420px; display: block; margin-left: auto; margin-right: auto;">
-    </div>
-    <script>
-        function toggle(){
-            var imgsrc = document.getElementById("img1").src;
-            if (imgsrc.indexOf("images/grace/maskoff.jpg")!== -1){
-                document.getElementById("img1").src = "images/grace/maskon.jpg";
-            }
-            else{
-                document.getElementById("img1").src = "images/grace/maskoff.jpg"
-            }
-        }
-    </script>
-
-</div>
 
 </body>
 </html>
