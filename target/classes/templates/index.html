@@ -11,7 +11,24 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <img src="/images/dnslogo2.png" alt="DNS LOGO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .parallax {
+            /* The image used */
+            background-image: url("images/dnslogo.png");
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    </head>
+    <div class="parallax"></div>
     <div id="spring_intro" class="articles" style="margin: 30px;">
         <h1><strong>Welcome to DN Stonks</strong></h1>
         <h3><strong>What is DN Stonks?</strong></h3>
