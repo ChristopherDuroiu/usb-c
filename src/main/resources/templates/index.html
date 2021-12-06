@@ -11,14 +11,31 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .parallax {
+            /* The image used */
+            background-image: url("images/dnslogo.png");
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    </head>
+    <div class="parallax"></div>
     <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong>Java and Spring</strong></h1>
-        <h3><strong>What is Spring?</strong></h3>
+        <h1><strong>Welcome to DN Stonks</strong></h1>
+        <h3><strong>What is DN Stonks?</strong></h3>
         <ol>
-            <li>Spring Framework is the most popular application development framework of Java. </li>
-            <li>Spring Boot helps to create a stand-alone application with less configuration.</li>
-            <li>Spring MVC is a model view controller-based web framework under the Spring framework.</li>
-            <li>ThymeLeaf is a server-side Java template engine, support HTML5 JVM web development, and provides full integration with Spring Framework.</li>
+            <li>Teaching students at Del Norte about the stock market/crypto currency interactively.</li>
+            <li>Del Norte Stonks(DNS) will provide a first-hand experience with the US stock market and shareholding.</li>
+            <li>On the website, students will learn and develop their general financial literacy skills.</li>
         </ol>
         <h3><strong>What should Java Developers learn?</strong></h3>
         <ol>
