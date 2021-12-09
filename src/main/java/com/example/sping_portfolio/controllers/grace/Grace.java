@@ -1,6 +1,7 @@
 package com.example.sping_portfolio.controllers.grace;
 
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Controller;
@@ -21,8 +22,8 @@ public class Grace {
     public String grace(Model model) throws IOException, InterruptedException, ParseException {
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://numbersapi.p.rapidapi.com/10/trivia?fragment=true&notfound=floor&json=true"))
-                .header("x-rapidapi-host", "numbersapi.p.rapidapi.com")
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia?category=sportsleisure&limit=30"))
+                .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
                 .header("x-rapidapi-key", "215a0875bcmsh7b230e4f9ab5a5dp1b2cf9jsn0b45c55a9a92")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
