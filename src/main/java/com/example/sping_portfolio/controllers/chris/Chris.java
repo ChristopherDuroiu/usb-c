@@ -19,18 +19,18 @@ public class Chris {
     public String chris(Model model) throws IOException, InterruptedException, ParseException {
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia"))
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia?category=sportsleisure&limit=30"))
                 .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
-                .header("x-rapidapi-key", "845637a39cmshcd1cb3388e6f02ap15ffd5jsne437b834d421")
+                .header("x-rapidapi-key", "215a0875bcmsh7b230e4f9ab5a5dp1b2cf9jsn0b45c55a9a92")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
 
         Object object = new JSONParser().parse(response.body());
-        JSONArray trivia = (JSONArray) object;
+        JSONArray stats = (JSONArray) object;
 
-        //model.addAttribute("trivia", trivia);
+        model.addAttribute("stats", stats);
 
         {return "chris";}
     }
