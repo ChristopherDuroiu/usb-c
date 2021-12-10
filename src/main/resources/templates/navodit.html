@@ -7,50 +7,116 @@
         <title>Navodit</title>
     </div>
 
+    <style>
+        dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
 </head>
 <body>
 
     <div layout:fragment="content" th:remove="tag">
-        <h1 style="color: white">Hello there</h1>
-        <h2 style="color: white">My name is Navodit</h2>
+        <br>
+        <br>
+        <br>
+        <br>
         <div>
-            <img id="img1" src="images/navodit/navmaskoff.png" onclick="toggle()"
+            <img id="img1" src="images/navodit/navmaskoff.jpg" onclick="toggle()"
                  alt="mask_off"
                  style="height: 360px; width: 540px; display: block; margin-left: auto; margin-right: auto;">
         </div>
         <script>
             function toggle(){
                var imgsrc = document.getElementById("img1").src;
-                if (imgsrc.indexOf("images/navodit/navmaskoff.png")!== -1){
-                  document.getElementById("img1").src = "images/navodit/navmaskon.png";
+                if (imgsrc.indexOf("images/navodit/navmaskoff.jpg")!== -1){
+                  document.getElementById("img1").src = "images/navodit/navmaskon.jpg";
                 }
                 else{
-                    document.getElementById("img1").src = "images/navodit/navmaskoff.png"
+                    document.getElementById("img1").src = "images/navodit/navmaskoff.jpg"
                 }
             }
         </script>
+        <br>
+        <br>
         <div>
-
+            <h1>About Me</h1>
+            <hr>
+            <h2 style="font-size: 24px">Hello There! My name is Navodit Maheshwari and I am a senior at Del Norte High School.
+                I am currently taking CSA, in which, I am learning Java, HTML, CSS, JS and Thymeleaf.
+                In my free time, I like to play basketball, video games and code.</h2>
         </div>
+        <br>
+        <br>
         <div>
+            <h1>Geography Trivia API</h1>
+            <hr>
+            <h2 style="font-size: 24px">I really like Geography and Trivia, so I pulled a geography trivia API.
+                Try to answer these questions and for new questions, click refresh!</h2>
+            <br>
             <form action="/navodit" method="GET" id="triviaForm">
-                <button style="width:200px" class="reviewSubmit">Refresh!</button>
+                <button style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px" class="reviewSubmit">Refresh!</button>
             </form>
         </div>
         <div>
-            <table style="color:white;" border="1">
-                <tr>
-                    <th>Category</th>
-                    <th>Question</th>
-                    <th>Answer</th>
-                </tr>
-                <tr>
-                    <td th:text="${trivia[0].category}"> </td>
-                    <td th:text="${trivia[0].question}"> </td>
-                    <td th:text="${trivia[0].answer}"> </td>
-                </tr>
-            </table>
+            <br>
+            <br>
+            <h3 style="font-size: 36px">Category</h3>
+            <div>
+                <h2 style="font-size: 24px" th:text="${trivia[0].category}"></h2>
+            </div>
+
+            <br>
+            <br>
+
+            <h3 style="font-size: 36px">Question</h3>
+            <div>
+                <h2 style="font-size: 24px" th:text="${trivia[0].question}"></h2>
+            </div>
+
+            <br>
+            <br>
+
+            <h3 style="font-size: 36px">Answer</h3>
+            <div class="answer">
+                <h2 style="font-size: 24px" th:text="${trivia[0].answer}"></h2sty>
+            </div>
+
+
         </div>
+        <br>
+        <br>
+
+        <div>
+            <h1>CB FRQs</h1>
+            <hr>
+            <h2 style="font-size: 24px">Week 2</h2>
+
+            <embed
+                   src="text/NavoditFRQ.txt"
+                   width= 100%;
+                   height="500">
+        </div>
+
+
+
+
+
         <script th:inline="javascript">
             const news = [[${video}]]
             console.log(news)
