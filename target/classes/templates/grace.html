@@ -10,8 +10,16 @@
 </head>
 
 <body layout:fragment="content" th:remove="tag">
-    <h1 style="color: white">Hello there</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="color: white">Welcome</h1>
     <h2 style="color: white">My name is Grace Le!</h2>
+    <div>
+        <h2 style="color: white">UNIT 2 FRQ</h2>
+        <embed src = "text/GraceFRQ.txt">
+    </div>
     <div>
         <img id="img1" src="images/grace/maskoff.jpg" onclick="toggle()"
              alt="mask_off"
@@ -37,16 +45,16 @@
                         width: 50%;
                     }
 
-                    #customers td, #customers th {
+                    td, th {
                         border: 1px solid #ddd;
                         padding: 8px;
                     }
 
-                    #customers tr:nth-child(even){background-color: #f2f2f2;}
+                    tr:nth-child(even){background-color: #f2f2f2;}
 
-                    #customers tr:hover {background-color: #ddd;}
+                    tr:hover {background-color: #ddd;}
 
-                    #customers th {
+                    th {
                         padding-top: 12px;
                         padding-bottom: 12px;
                         text-align: left;
@@ -57,8 +65,9 @@
             </head>
             <body>
 
-            <h1>A Fancy Table</h1>
-
+            <h1>Sports Trivia API</h1>
+            <p>&#9917&#127936Welcome to Sports Trivia! This game will test you on how well you know sports.&#9917&#127936</p>
+            <p>Once you finish answering the question, click the next button for a new one. Good Luck!!!</p>
             <table id="customers">
                 <tr>
                     <th>Category</th>
@@ -111,10 +120,9 @@
             </style>
             </head>
             <body>
-<form action="/grace" method="GET" id="gracetrivia">
-            <button href="#" class="next round" >&#8250;</button>
-</form>
-
+                <form action="/grace" method="GET" id="gracetrivia">
+                            <button href="#" class="next round" >&#8250;</button>
+                </form>
             </body>
 </html>
 
