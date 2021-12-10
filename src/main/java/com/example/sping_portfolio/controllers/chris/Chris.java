@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.grace;
+package com.example.sping_portfolio.controllers.chris;
 
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
@@ -19,9 +19,9 @@ public class Chris {
     public String chris(Model model) throws IOException, InterruptedException, ParseException {
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia?category=sportsleisure&limit=30"))
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia?category=toysgames"))
                 .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
-                .header("x-rapidapi-key", "215a0875bcmsh7b230e4f9ab5a5dp1b2cf9jsn0b45c55a9a92")
+                .header("x-rapidapi-key", "1d036507a7mshbe0c2503e976f71p177567jsn4fd37e7de638")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
