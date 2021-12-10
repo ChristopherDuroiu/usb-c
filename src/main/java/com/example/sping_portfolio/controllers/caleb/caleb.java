@@ -26,7 +26,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class caleb {
     @GetMapping("/caleb")
     public String caleb(Model model) throws IOException, InterruptedException, ParseException {
-        return "caleb";
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia"))
+                .header("x-rapidapi-host", "trivia-by-api-ninjas.p.rapidapi.com")
+                .header("x-rapidapi-key", "090ee8ea5bmsh4e6155429c44f48p10b6a7jsne4150a8952cb")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
+
+        Object object = new JSONParser().parse(response.body());
+        JSONArray joke = (JSONArray) object;
+
+        model.addAttribute("joke", joke);
+
+        {return "caleb";}
     }
 }
+
 
