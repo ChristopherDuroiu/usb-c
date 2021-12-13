@@ -4,6 +4,9 @@
 
 ![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
 
+## Week 2 Review Ticket
+https://github.com/ChristopherDuroiu/usb-c/issues/21
+
 ## Dev Team
 
 | Name | GitHub ID | Issues | Commits | Roles |
