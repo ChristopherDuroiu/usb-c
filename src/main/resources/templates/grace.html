@@ -10,8 +10,19 @@
 </head>
 
 <body layout:fragment="content" th:remove="tag">
-    <h1 style="color: white">Hello there</h1>
-    <h2 style="color: white">My name is Grace Le!</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="color: white">Welcome</h1>
+    <h3 style="color: white">My name is Grace Le! I am currently a senior attending Del Norte Highschool. I am really passionate about computer
+    science and enjoy sports like soccer. Hope you enjoy my About Me Page!</h3>
+    <div>
+        <h2 style="color: white">UNIT 2 FRQ</h2>
+        <embed src = "text/GraceFRQ.txt"
+               width= 50%;
+               height="300">
+    </div>
     <div>
         <img id="img1" src="images/grace/maskoff.jpg" onclick="toggle()"
              alt="mask_off"
@@ -37,28 +48,29 @@
                         width: 50%;
                     }
 
-                    #customers td, #customers th {
+                    td, th {
                         border: 1px solid #ddd;
                         padding: 8px;
                     }
 
-                    #customers tr:nth-child(even){background-color: #f2f2f2;}
+                    tr:nth-child(even){background-color: #f2f2f2;}
 
-                    #customers tr:hover {background-color: #ddd;}
+                    tr:hover {background-color: #ddd;}
 
-                    #customers th {
+                    th {
                         padding-top: 12px;
                         padding-bottom: 12px;
                         text-align: left;
-                        background-color: #04AA6D;
+                        background-color: #51208d;
                         color: white;
                     }
                 </style>
             </head>
             <body>
 
-            <h1>A Fancy Table</h1>
-
+            <h1>Sports Trivia API</h1>
+            <h3>&#9917&#127936Welcome to Sports Trivia! This game will test you on how well you know sports.&#9917&#127936</h3>
+            <h3>Once you finish answering the question, click the next button for a new one. Good Luck!!!</h3>
             <table id="customers">
                 <tr>
                     <th>Category</th>
@@ -101,8 +113,8 @@
 
 
                 .next {
-                    background-color: #04AA6D;
-                    color: black;
+                    background-color: #51208d;
+                    color: white;
                 }
 
                 .round {
@@ -111,10 +123,11 @@
             </style>
             </head>
             <body>
-<form action="/grace" method="GET" id="gracetrivia">
-            <button href="#" class="next round" >&#8250;</button>
-</form>
-
+                <form action="/grace" method="GET" id="gracetrivia">
+                            <button href="#" class="next round" >&#8250;</button>
+                </form>
             </body>
-</html>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vRAeEprwmp-YsFnezLCZhO4R9OpuS5BQugoMlZS7H24UINxOZy8kfbAtuJ7F3QI6Sa0hCcxF_cdQO7D/pub?embedded=true" width="50%"; height="400"></iframe>
+            </div>
+            </html>
 
