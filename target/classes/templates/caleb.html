@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Caleb About Me</title>
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <body>
 
 <div layout:fragment="content" th:remove="tag">
@@ -14,13 +15,15 @@
     <br>
 
     <h1 style="color: white; text-align: center;font-family: Webdings; ">JJJ</h1>
-    <h2 style="color: white; text-align: center; font-family: 'Javanese Text';">I'm Caleb</h2>
+    <h2 style="color: white; text-align: center; font-family: 'Javanese Text'; font-size: 80px;">I'm Caleb</h2>
 
     <br>
 
     <div style="text-align: center; background-color: white; border-radius: 100px; padding: 40px; width: 400px; margin: auto; font-family: 'Javanese Text';">
-        <h1> Frq #2</h1>
-    <embed src = "text/CalebFRQ.txt">
+        <a href="/caleb3" class="btn-sm btn-dark"> FRQ #2 </a>
+        <br/>
+        <br/>
+        <a href="/caleb2" class="btn-sm btn-dark"> FRQ #3 </a>
 
     </div>
     <br>
@@ -29,7 +32,7 @@
     <div>
         <img id="img1" src="images/caleb/maskon.png" onclick="toggle()"
              alt="maskon"
-             style="height: 540px; width: 420px; display: block; margin-left: auto; margin-right: auto;">
+             style="height: 540px; display: block; margin-left: auto; margin-right: auto;">
     </div>
     <script>
         function toggle(){
@@ -49,11 +52,11 @@
         <br>
         <br>
         <form action="/caleb" method="GET" id="jokeForm">
-            <button style="width:200px" class="reviewSubmit">CLICK ME</button>
+            <button  class="btn btn-outline-danger">CLICK ME</button>
         </form>
     </div>
     <div>
-        <table style="color:white;" border="1">
+        <table style="color:white; font-max-size: large;" border="1">
             <tr>
                 <th>Category</th>
                 <th>Question</th>
