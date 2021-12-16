@@ -5,11 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import org.springframework.ui.Model;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.HashMap;
 
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 
@@ -18,9 +15,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class Navodit {
@@ -41,6 +35,6 @@ public class Navodit {
 
         model.addAttribute("trivia", trivia);
 
-        return "navodit";
+        return "navodit/navodit";
     }
 }
