@@ -14,11 +14,27 @@
         <canvas id="canvas" width="512" height="384" ></canvas>
     </div>
     <div>
+       <div>
+        <label>x-Coordinate: </label>
         <input type="number" id="horizontal" name="horizontal"
                min="-16" max="16">
+       </div>
+        <div>
+        <label>y-Coordinate: </label>
         <input type="number" id="vertical" name="vertical"
                min="-16" max="16">
+        </div>
+        <div>
+         <label>Side Length: </label>
+        <input type="number" id="length" name="length"
+               min="0" max="12">
+        </div>
+        <div>
         <button type="button" onclick="square();">Draw</button>
+        <form style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px" action="/draw" method="GET" id="draw">
+            <button style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px" class="reviewSubmit">Refresh!</button>
+        </form>
+        </div>
     </div>
 
     <script>
@@ -72,7 +88,7 @@
             const x = 256 + (unit * document.getElementById("horizontal").value);
             const y = 128 + -1 * (unit * document.getElementById("vertical").value);
             // length of sides is 4 units
-            const l = unit*4;
+            const l = unit*(document.getElementById("length").value);
 
             // draw a square
             ctx.beginPath();
