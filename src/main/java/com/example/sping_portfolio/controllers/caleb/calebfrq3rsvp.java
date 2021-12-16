@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class calebfrq3rsvp {
     @GetMapping("/caleb2")
     public String Calebfrq2(
-            @RequestParam(name = "rsvp", required = false, defaultValue = "false") boolean rsvp,
+            @RequestParam(name = "rsvp", required = false, defaultValue = "true") boolean rsvp,
             @RequestParam(name = "selection", required = false, defaultValue = "0") int selection,
             @RequestParam(name = "option1", required = false, defaultValue = "") String option1,
             Model model
