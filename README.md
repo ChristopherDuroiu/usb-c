@@ -4,6 +4,15 @@
 
 ![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
 
+
+## Week 3 Tangibles by role
+| Name | GitHub ID | Issues | Commits | Tangibles |
+| ------------- | ------------- | -------- | -------- |------------|
+|Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |  Scrum Master: Ensure roles are assigned.  Build Scrum Board. Also Technical Officer from Scrum Team.  Works with Teacher, Classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics for Trimester.  Also, facilitates learning of Technical Concepts within Scrum Team. |
+|Grace Le| [gracele246](https://github.com/gracele246)  | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/gracele246) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=gracele246) | Deployment Manager (RPi or AWS).  Deploy Web site.  Establish policy and frequency for updates.  Ensure site is not broken and always alive for reviews. |
+|Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) | [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan) [Pull Request Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document) |
+|Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) | Primary Designer.  Primary Designer and Layout manager.  Organize Thymeleaf Enabled Templates, ensure usage of Bootstrap (minimize CSS customization per page).  Establish plan for overrides on each of the User Pages. |
+
 ## Week 2 Review Ticket
 https://github.com/ChristopherDuroiu/usb-c/issues/21
 
