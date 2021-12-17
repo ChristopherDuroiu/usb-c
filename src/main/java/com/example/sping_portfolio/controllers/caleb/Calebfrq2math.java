@@ -10,15 +10,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Calebfrq2math{
     @GetMapping("/caleb3")
     public String calebfrq1(
-
             @RequestParam(name = "a", required = false, defaultValue = "0") double a,
             @RequestParam(name = "b", required = false, defaultValue = "0") double b,
             Model model
-
     ) {
         double answer = Math.sqrt(a * a + b * b);
-
         model.addAttribute("answer", answer);
+
+
+
+
+
 
 
         return "caleb3";
