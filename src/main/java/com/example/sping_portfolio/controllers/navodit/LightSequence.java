@@ -46,4 +46,9 @@ public class LightSequence {
         String seq_updated = newString;
         return seq_updated;
     }
+
+    public String deleteSequence(String delete){
+        String seq_deleted = m_seq.replace(delete, "");
+        return seq_deleted;
+    }
 }

@@ -6,6 +6,7 @@
     <div layout:fragment="metadata" th:remove="tag">
         <title>FRQ2</title>
     </div>
+
 </head>
 <body>
 <div layout:fragment="content" th:remove="tag">
@@ -14,11 +15,34 @@
     <br>
     <br>
     <div>
-        <h1>Dinner</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <form action="/navodit/frq2" method="GET" id="frq2" style="text-align: center">
+            <h1 for="frq2Field">Dinner</h1>
+            <label style="font-size: large">Are you attending:</label>
+            <input type="checkbox" name="attend" id="frq2Check" style="width: 25px; height: 25px">
+            <br>
+            <div>
+            <input type="number" min="1" name="meal" id="frq2Field" placeholder="Which meal?" style="width: 25%">
+            </div>
+            <br>
+            <div>
+                <button style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px">
+                Submit</button>
+            </div>
+        </form>
+        <br>
+        <br>
         <h2 th:text="${dinner}"></h2>
-
     </div>
-
+    <br>
+    <br>
+    <div>
+        <script src="https://gist.github.com/Navodit1603/2f79cf37594c11867962ec3f57e9f45e.js"></script>
+    </div>
 
 </div>
 

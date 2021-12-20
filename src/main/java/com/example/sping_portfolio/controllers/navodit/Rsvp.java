@@ -25,18 +25,15 @@ public class Rsvp {
             }
             if(m_selection == 3){
                 option1 = "Thanks for attending. You will be served Pasta.";
-                return option1;
-            }
-            if(m_selection == 4){
-                option1 = "Thanks for attending. You will be served Fish.";
-                return option1;
             }
             else{
-                option1="Sorry you can't make it";
-                return option1;
+                option1="Thanks for attending. You will be served Fish.";
             }
         }
+        else{
+            option1="Sorry you can't make it";
+        }
         return option1;
-    }
 
+    }
 }
