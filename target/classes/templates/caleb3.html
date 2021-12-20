@@ -14,18 +14,20 @@
 <h1 style=" text-align: center; font-family: 'Javanese Text';"strong> FRQ #2</h1>
 <form style=" text-align:center;" action="/caleb3" method="GET" id="frqForm">
     <div class="frq-form">
-        <p for="frqField"> Take the square root of the sum of 2 numbers !!!!!</p>
+        <p for="frqField"> Take the square root of the sum</p>
         <br/>
-        <input style="background-color: mediumpurple;" name="a" id="frqField">
+        <input style="background-color: mediumpurple;"
+               name="a" id="frqField">
         <h1> + </h1>
-        <input style="background-color: mediumpurple;" name="b" id="frqField">
+        <input style="background-color: mediumpurple;"
+               name="b" id="frqField">
+
         <br/>
         <br/>
         <br/>
         <button class="btn btn-outline-danger">CLICK ME</button>
         <br/>
         <br/>
-
         <p th:text="'EQUALS: ' + ${answer}"></p>
     </div>
 </form>
