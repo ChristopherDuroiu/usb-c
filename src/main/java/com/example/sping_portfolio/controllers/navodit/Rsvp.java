@@ -5,7 +5,6 @@ public class Rsvp {
     boolean m_rsvp;
     int m_selection;
     String option1;
-    String option2;
 
     public Rsvp(boolean rsvp, int selection) {
         m_rsvp = rsvp;
