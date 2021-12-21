@@ -7,13 +7,15 @@
         <title>FRQ1</title>
     </div>
 </head>
-<body>
+<body style="padding: 24px">
 <div layout:fragment="content" th:remove="tag">
     <br>
     <br>
     <br>
     <br>
     <div>
+        <a href="/navodit" style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px" class="reviewSubmit">Navodit</a>
+        <a href="/navodit/frq2" style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px" class="reviewSubmit">FRQ2</a>
      <form action="/navodit/frq1" method="GET" id="frq3" style="text-align: center">
     <h1>Original Number</h1>
     <input type="text" name="sequence" placeholder="number segment">
@@ -38,11 +40,23 @@
     <input type="text" name="update" placeholder="Update sequence segment">
     <h2 th:text="${updated}"></h2>
 
+    <br>
+
+         <h1>Triangle</h1>
+         <input type="text" name="a" placeholder="First Side Length">
+         <input type="text" name="b" placeholder="Second Side Length">
+         <h2 th:text="${a}"></h2>
+         <h2 th:text="${b}"></h2>
+         <h2 th:text="${hyp}"></h2>
+
          <br>
          <div>
              <button style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px">
                  Submit</button>
          </div>
+
+
+
 
 
      </form>

@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class LightSequenceController {
     @GetMapping("navodit/frq1")
-    public String frq1(@RequestParam(name = "sequence", required = false, defaultValue = "0") String seq,
+    public String frq1(
+            @RequestParam(name = "sequence", required = false, defaultValue = "0") String seq,
             @RequestParam(name = "insert", required = false, defaultValue = "0") String insert,
             @RequestParam(name = "index", required = false, defaultValue = "0") int index,
             @RequestParam(name = "update", required = false, defaultValue = "0") String update,
