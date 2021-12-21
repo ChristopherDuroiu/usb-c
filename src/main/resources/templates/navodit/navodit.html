@@ -34,7 +34,7 @@
     </style>
 
 </head>
-<body>
+<body style="padding: 24px">
 
 <div layout:fragment="content" th:remove="tag">
     <br>
@@ -63,7 +63,7 @@
         <h1>About Me</h1>
         <hr>
         <h2 style="font-size: 24px">Hello There! My name is Navodit Maheshwari and I am </h2>
-        <div class="countup" id="countup1" style="font-size: 48px; background: black; color: gold; text-align: center; width: 100%; font-family: 'Orbitron', sans-serif;" >
+        <div class="countup" id="countup1" style="font-size: 48px; background: rgba(20,19,19,0.76); color: #adb217; text-align: center; width: 100%; font-family: 'Orbitron', sans-serif;" >
             <span class="timeel years">00</span>
             <span class="timeel timeRefYears">years</span>
             <span class="timeel days">00</span>
@@ -82,7 +82,7 @@
     <script>
         window.onload = function() {
             // Month Day, Year Hour:Minute:Second, id-of-element-container
-            countUpFromTime("Mar 16, 2004 13:00:00", 'countup1'); // ****** Change this line!
+            countUpFromTime("Mar 16, 2004 13:30:00", 'countup1'); // ****** Change this line!
         };
         function countUpFromTime(countFrom, id) {
             countFrom = new Date(countFrom).getTime();
