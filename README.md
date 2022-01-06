@@ -4,14 +4,14 @@
 
 ![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
 
-Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/gracele246
+[WEEK 3 TICKET](https://github.com/ChristopherDuroiu/usb-c/issues/22)
 ## Week 3 Tangibles by role
 | Name | GitHub ID | Issues | Commits | Tangibles |
 | ------------- | ------------- | -------- | -------- |------------|
-|Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |  [Feature 1](https://github.com/ChristopherDuroiu/usb-c/commit/2ea2e7614e14e018261ec3395ac5bfbe1e92a9a2) [Feature 2](https://github.com/ChristopherDuroiu/usb-c/commit/a751028ec16de1433b8b5c78b3f9223e55389afb) |
+|Navodit Maheshwari| [Navodit1603](https://github.com/Navodit1603) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/Navodit1603) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=Navodit1603) |  [Feature 1](https://github.com/ChristopherDuroiu/usb-c/blob/main/src/main/resources/templates/hackathon1.html) |
 |Grace Le| [gracele246](https://github.com/gracele246)  | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/gracele246) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=gracele246) | [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan) [Pull Request Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document) |
-|Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) | [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan) [Pull Request Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document) |
-|Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) | Primary Designer.  Primary Designer and Layout manager.  Organize Thymeleaf Enabled Templates, ensure usage of Bootstrap (minimize CSS customization per page).  Establish plan for overrides on each of the User Pages. |
+|Chris Duroiu| [ChristopherDuroiu](https://github.com/ChristopherDuroiu) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/ChristopherDuroiu) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=ChristopherDuroiu) | [Feature 1](https://github.com/ChristopherDuroiu/usb-c/blob/main/src/main/java/com/example/sping_portfolio/controllers/chris/Stock.java) |
+|Caleb Kim | [calebkimsd](https://github.com/calebkimsd) | [Issues](https://github.com/ChristopherDuroiu/usb-c/issues/assigned/calebkimsd) | [Commits](https://github.com/ChristopherDuroiu/usb-c/commits?author=calebkimsd) | [Home layout](https://github.com/ChristopherDuroiu/usb-c/blob/main/src/main/resources/templates/index.html) [About](https://github.com/ChristopherDuroiu/usb-c/blob/main/src/main/resources/templates/caleb.html) |
 
 ## Week 2 Review Ticket
 https://github.com/ChristopherDuroiu/usb-c/issues/21

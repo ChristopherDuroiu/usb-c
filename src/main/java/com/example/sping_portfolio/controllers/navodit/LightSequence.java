@@ -1,5 +1,8 @@
 package com.example.sping_portfolio.controllers.navodit;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class LightSequence {
 // attributes not shown
 
@@ -46,4 +49,17 @@ public class LightSequence {
         String seq_updated = newString;
         return seq_updated;
     }
+
+    public String deleteSequence(String delete){
+        String seq_deleted = m_seq.replace(delete, "");
+        return seq_deleted;
+    }
+
+
+
+    public Double triangle(Double a, Double b){
+        Double c = Math.sqrt(a*a+b*b);
+        return c;
+    }
+
 }
