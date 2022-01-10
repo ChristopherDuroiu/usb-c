@@ -17,10 +17,10 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 @Controller
-public class Login {
-    @GetMapping("/login")
-    public String navodit(Model model){
+public class Create {
+    @GetMapping("/create")
+    public String signup(Model model){
 
-       return "login/login";
+        return "login/create";
     }
 }

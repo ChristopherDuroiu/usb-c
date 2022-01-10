@@ -1,9 +1,6 @@
-# Period 2  🔋USB-C🔋
-### Trimester 2 
-
-
-![Logo](https://github.com/ChristopherDuroiu/usb-c/blob/88653a5ad4227f15b945e30c134ce8907d859f9c/src/main/resources/static/images/dnslogo.png)
-
+---
+layout: default
+---
 ## Dev Team: Caleb, Chris, Grace, Navodit
 
 ## Link to deployed site: [Click Me!](https://dnstonks.cf)
@@ -60,5 +57,4 @@ Teaching students at Del Norte about the stock market/crypto currency interactiv
 * [Deployment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Deployment-Plan)
 * [Github Admin Policies](https://github.com/ChristopherDuroiu/usb-c/wiki/Github-Admins-Policy-Document)
 * [Managment Plan](https://github.com/ChristopherDuroiu/usb-c/wiki/Managment-Plan)
-
 
