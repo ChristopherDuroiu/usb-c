@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
+
 <head>
+
     <style>
-        form {
-            margin-top: 80px;
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
         }
     </style>
-    <meta charset="UTF-8">
-    <title>Chris About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <div layout:fragment="metadata" th:remove="tag">
+        <meta charset="UTF-8">
+        <title>Chris About Me</title>
+    </div>
 </head>
+
 <body>
 
 <div layout:fragment="content" th:remove="tag">
-    <h1 style="color: white">It's Chris</h1>
     <div>
         <br>
         <br>
         <br>
-        <a href="/chrisfrq2">Chris FRQ 2</a>
+        <h1 style="color: white">It's Chris</h1>
         <img id="img1" src="images/chris/chrismaskoff.jpg" onclick="toggle()"
              alt="mask_off"
              style="height: 360px; width: 640px; display: block; margin-left: auto; margin-right: auto;">
@@ -35,9 +58,7 @@
             }
         }
     </script>
-    <div>
 
-    </div>
     <div>
         <form action="/chris" method="GET" id="triviaForm">
             <button style="width:200px" class="reviewSubmit">Refresh!</button>
@@ -51,33 +72,6 @@
             Aside from CSA, I like to swim, lift, and hang out with friends.</h2>
     </div>
     <br>
-    <head>
-        <style>
-            #customers {
-                font-family: Arial, Helvetica, sans-serif;
-                border-collapse: collapse;
-                width: 50%;
-            }
-
-            #customers td, #customers th {
-                border: 1px solid #ddd;
-                padding: 8px;
-            }
-
-            #customers tr:nth-child(even){background-color: #f2f2f2;}
-
-            #customers tr:hover {background-color: #ddd;}
-
-            #customers th {
-                padding-top: 12px;
-                padding-bottom: 12px;
-                text-align: left;
-                background-color: #04AA6D;
-                color: white;
-            }
-        </style>
-    </head>
-    <body>
 
     <h1>A Fancy Table</h1>
 
@@ -93,8 +87,6 @@
             <td th:text="${stats[0].answer}"></td>
         </tr>
     </table>
-    <html>
-    <head>
 </div>
 
 </body>
