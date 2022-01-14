@@ -18,6 +18,11 @@ public class User {
 
     }
 
+    public User(String name, String teamName, Integer salary) {
+        this.name = name;
+        this.teamName = teamName;
+        this.salary = salary;
+    }
 
     public Long getId() {
         return id;
@@ -48,13 +53,6 @@ public class User {
     }
 
     public void setSalary(Integer salary) {
-        this.salary = salary;
-    }
-
-    public User(Long id, String name, String teamName, Integer salary) {
-        this.id = id;
-        this.name = name;
-        this.teamName = teamName;
         this.salary = salary;
     }
 }
