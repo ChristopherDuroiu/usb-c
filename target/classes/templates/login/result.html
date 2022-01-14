@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+
+
+
+<div layout:fragment="head" th:remove="tag">
+    <!-- Page specific head additions -->
+    <title>Person List</title>
+</div>
+<div layout:fragment="body" th:remove="tag">
+
+    <div class="container">
+        <h1 th:text =" 'thymeLeaf '+ ${message} +' App'" ></h1>
+        <h1>Result</h1>
+
+        <!--
+        <p th:text="'id: ' + ${greeting.id}" />
+        <p th:text="'content: ' + ${greeting.content}" />
+        -->
+        <p th:text="'id: ' + ${user.id}" />
+        <p th:text="'Name: ' + ${user.name}" />
+        <p th:text="'teamName: ' + ${user.teamName}" />
+
+        <p th:text="'salary: ' + ${user.salary}" />
+
+        <a href="/database/login">Submit another message</a>
+        -->
+
+    </div>
+</div>
+</html>
+
