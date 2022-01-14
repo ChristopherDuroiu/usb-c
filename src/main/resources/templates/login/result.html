@@ -21,13 +21,34 @@
         <p th:text="'id: ' + ${greeting.id}" />
         <p th:text="'content: ' + ${greeting.content}" />
         -->
-        <p th:text="'id: ' + ${user.id}" />
-        <p th:text="'Name: ' + ${user.name}" />
-        <p th:text="'teamName: ' + ${user.teamName}" />
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>EMail</th>
+                <th>Person</th>
 
-        <p th:text="'salary: ' + ${user.salary}" />
+            </tr>
+            </thead>
+            <tbody>
 
-        <a href="/database/login">Submit another message</a>
+            <tr th:each="user : ${list}">
+
+
+                <td th:text="${user.id}">Person ID</td>
+                <td th:text="${user.name}">Name</td>
+                <td th:text="${user.salary}">Salary</td>
+                <td th:text="${user.teamName}">Team Name</td>
+                <!--
+                                <td th:if="${user.getAge() != -1}" th:text="${user.getAge()}">Age</td>
+                                <td th:unless="${user.getAge() != -1}" th:text="Unknown">Unknown Age</td>
+                -->
+
+            </tr>
+
+
+            </tbody>
+        </table>
         -->
 
     </div>
