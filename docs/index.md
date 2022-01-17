@@ -5,6 +5,12 @@ layout: default
 
 ## Link to deployed site: [Click Me!](https://dnstonks.cf)
 
+About Pages:
+Caleb: [link](https://dnstonks.cf/caleb)
+Navodit: [link](https://dnstonks.cf/navodit)
+Grace: [link](https://dnstonks.cf/grace)
+Chris: [link](https://dnstonks.cf/chris)
+
 ## Week 4 Review
 
 | Name | GitHub ID | Issues | Commits | FRQ/PBL  |
