@@ -10,13 +10,15 @@ p {
   color: black;
 }
 
+input {
+  border-radius: 8px;
+}
+
 button{
   width:200px;
   background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+  border: none; color: white;
+  padding: 15px 32px; text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -24,5 +26,4 @@ button{
   cursor: pointer;
   border-radius: 8px
 }
-
 /*# sourceMappingURL=style.css.map */
