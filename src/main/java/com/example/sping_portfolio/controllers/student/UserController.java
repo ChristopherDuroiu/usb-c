@@ -22,31 +22,15 @@ public class UserController {
     @Autowired
     private UserJpaRespository userJpaRespository;
     private UserSqlRespository userSqlRespository;
-/*
-    @GetMapping("/student/login")
-    public String louisMethod(Model model){
-        model.addAttribute("message", "Hello World");
-        model.addAttribute("user", new User());
-        return "/login/login";
-    }
 
- */
     @GetMapping("/student/login")
     public String grace(Model model) {
         List<User> users = userJpaRespository.findAll();
-        model.addAttribute("message", "Hello World");
+        model.addAttribute("message", "Login Test");
         model.addAttribute("list",users);
         {return "/login/test";}
     }
-/*
-    @PostMapping("/student/load")
-    public String  load(@Valid User user, Model model){
-        model.addAttribute("message", "Hello World");
-        model.addAttribute("user", user);
-        userJpaRespository.save(user);
-        return  "/login/test";
-    }
-*/
+
     @PostMapping("/student/load")
     public String personSave(@Valid User user, Model model, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
@@ -62,7 +46,7 @@ public class UserController {
 
     @GetMapping("/student/test")
     public String personAdd(Model model) {
-        model.addAttribute("message", "Hello World");
+        model.addAttribute("message", "Testing List");
         model.addAttribute("user", new User());
         return "login/login2";
     }

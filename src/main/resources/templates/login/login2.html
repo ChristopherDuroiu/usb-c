@@ -4,16 +4,20 @@
 
 <head>
     <div layout:fragment="metadata" th:remove="tag">
-        <title>Grace About Me</title>
+        <title>Login Page</title>
     </div>
 
 </head>
 
 
-
 <body layout:fragment="content" th:remove="tag">
+
+<br>
+<br>
+<br>
+
 <h1 style="color: white">Welcome</h1>
-<h1 th:text =" 'thymeLeaf '+ ${message} +' App'" ></h1>
+<h2 style="color: white">Sign in here!</h2>
 
 
 <form action="#" th:action="@{/student/load}" th:object="${user}" method="POST">
