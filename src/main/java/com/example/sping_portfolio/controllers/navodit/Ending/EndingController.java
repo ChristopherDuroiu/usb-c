@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.navodit;
+package com.example.sping_portfolio.controllers.navodit.Ending;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

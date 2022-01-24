@@ -1,5 +1,6 @@
-package com.example.sping_portfolio.controllers.navodit;
+package com.example.sping_portfolio.controllers.navodit.Substring;
 
+import com.example.sping_portfolio.controllers.navodit.Substring.Substring;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
