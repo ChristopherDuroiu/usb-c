@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.navodit;
+package com.example.sping_portfolio.controllers.navodit.Rsvp;
 
 public class Rsvp {
 

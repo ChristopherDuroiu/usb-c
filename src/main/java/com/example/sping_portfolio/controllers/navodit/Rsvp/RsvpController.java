@@ -1,5 +1,6 @@
-package com.example.sping_portfolio.controllers.navodit;
+package com.example.sping_portfolio.controllers.navodit.Rsvp;
 
+import com.example.sping_portfolio.controllers.navodit.Rsvp.Rsvp;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
