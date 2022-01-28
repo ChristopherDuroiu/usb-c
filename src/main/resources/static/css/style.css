@@ -14,7 +14,7 @@ input {
   border-radius: 8px;
 }
 
-button{
+.reviewSubmit{
   width:200px;
   background-color: #4CAF50;
   border: none; color: white;
