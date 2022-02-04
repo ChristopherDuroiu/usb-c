@@ -9,7 +9,8 @@ public class Picture extends Book{
     }
 
 
-  /*  public String printBookInfo(){
-        String info = title + ", written by " + author;
-    } */
+   public String printBookInfo(){
+        String info = super.t + ", written by " + super.a;
+        return info;
+    }
 }
