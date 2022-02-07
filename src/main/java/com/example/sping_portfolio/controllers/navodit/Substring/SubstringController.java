@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.controllers.navodit.Substring;
 
-import com.example.sping_portfolio.controllers.navodit.Substring.Substring;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class SubstringController {
-    @GetMapping("navodit/substring")
+    @GetMapping("navodit/frq4")
         public String letter(
                 @RequestParam(name = "substring", required = false, defaultValue = "CAAATT") String abc,
                 Model model){
@@ -25,6 +24,6 @@ public class SubstringController {
 
 
 
-        return "navodit/substring";
+        return "navodit/frq4";
     }
 }
