@@ -14,7 +14,7 @@ public class BookController {
             @RequestParam(name = "ill", required = false, defaultValue = "") String ill,
             Model model){
 
-        Book b = null;
+        Book b;
         if(ill.equals("")){
              b = new Book(book, author);
         }
