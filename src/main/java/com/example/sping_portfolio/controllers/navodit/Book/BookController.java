@@ -14,6 +14,18 @@ public class BookController {
             @RequestParam(name = "ill", required = false, defaultValue = "") String ill,
             Model model){
 
+        Book b = null;
+        if(ill.equals("")){
+             b = new Book(book, author);
+        }
+        else{
+             b = new Picture(book, author, ill);
+        }
+
+        String info = b.printBookInfo();
+
+        model.addAttribute("info", info);
+
 
 
         return "navodit/frq9";

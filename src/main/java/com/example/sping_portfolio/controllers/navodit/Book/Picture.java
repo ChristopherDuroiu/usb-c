@@ -1,7 +1,7 @@
 package com.example.sping_portfolio.controllers.navodit.Book;
 
 public class Picture extends Book{
-    private String illustrator;
+    public String illustrator;
 
     public Picture(String t, String a, String i){
         super(t,a);
@@ -10,7 +10,7 @@ public class Picture extends Book{
 
 
    public String printBookInfo(){
-        String info = super.t + ", written by " + super.a;
+        String info = super.title + ", written by " + super.author + ", illustrated by "+ illustrator;
         return info;
     }
 }
