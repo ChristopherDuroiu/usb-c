@@ -25,6 +25,13 @@
   <br>
   <br>
   <br>
+  <div>
+    <h3 style="font-size: 72px">FRQ9</h3>
+    <h2>User can input the name of a book, author and illustrator(if there is one). The program will print out the information about the book.</h2>
+    <hr>
+  </div>
+  <br>
+  <br>
   <form action="/navodit/frq9" method="GET" id="frq9" style="text-align: center">
     <h1>Enter the name of the book</h1>
     <br>
@@ -44,6 +51,11 @@
     <div>
       <button style="width:200px; background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 8px">
         Submit</button>
+    </div>
+    <br>
+    <br>
+    <div>
+      <h2 th:text="${info}"></h2>
     </div>
   </form>
 
