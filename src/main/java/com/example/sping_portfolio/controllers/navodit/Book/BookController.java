@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BookController {
-    @GetMapping("navodit/frq9")
+    @GetMapping("navodit/frq8")
     public String book(
             @RequestParam(name = "book", defaultValue = "") String book,
             @RequestParam(name = "author", defaultValue = "") String author,
@@ -28,6 +28,6 @@ public class BookController {
 
 
 
-        return "navodit/frq9";
+        return "navodit/frq8";
     }
 }

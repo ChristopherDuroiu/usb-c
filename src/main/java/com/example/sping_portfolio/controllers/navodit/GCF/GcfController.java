@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class GcfController {
-    @GetMapping("navodit/frq10")
+    @GetMapping("navodit/frq9")
     public String gcf(
             @RequestParam(name = "first", required = false, defaultValue = "1") int first,
             @RequestParam(name = "second", required = false, defaultValue = "1") int second,
@@ -21,6 +21,6 @@ public class GcfController {
         model.addAttribute("second", second);
         model.addAttribute("simplified", simplified);
 
-        return "navodit/frq10";
+        return "navodit/frq9";
     }
 }
